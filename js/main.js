@@ -9,7 +9,7 @@
             margin: 10,
             dots: false,
             nav: true,
-            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            navText: ['<i class=\'fa fa-angle-left\'></i>', '<i class=\'fa fa-angle-right\'></i>'],
             responsive: {
                 0: {
                     items: 1
@@ -28,7 +28,7 @@
             margin: 10,
             dots: false,
             nav: true,
-            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            navText: ['<i class=\'fa fa-angle-left\'></i>', '<i class=\'fa fa-angle-right\'></i>'],
             responsive: {
                 0: {
                     items: 1
@@ -47,7 +47,7 @@
             margin: 10,
             dots: false,
             nav: true,
-            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            navText: ['<i class=\'fa fa-angle-left\'></i>', '<i class=\'fa fa-angle-right\'></i>'],
             responsive: {
                 0: {
                     items: 1
@@ -69,8 +69,8 @@
 
         $(document).ready(function () {
             $('#play-video').on('click', function (ev) {
-                $(".fh5co_hide").fadeOut();
-                $("#video")[0].src += "&autoplay=1";
+                $('.fh5co_hide').fadeOut();
+                $('#video')[0].src += '&autoplay=1';
                 ev.preventDefault();
 
             });
@@ -79,8 +79,8 @@
 
         $(document).ready(function () {
             $('#play-video_2').on('click', function (ev) {
-                $(".fh5co_hide_2").fadeOut();
-                $("#video_2")[0].src += "&autoplay=1";
+                $('.fh5co_hide_2').fadeOut();
+                $('#video_2')[0].src += '&autoplay=1';
                 ev.preventDefault();
 
             });
@@ -88,8 +88,8 @@
 
         $(document).ready(function () {
             $('#play-video_3').on('click', function (ev) {
-                $(".fh5co_hide_3").fadeOut();
-                $("#video_3")[0].src += "&autoplay=1";
+                $('.fh5co_hide_3').fadeOut();
+                $('#video_3')[0].src += '&autoplay=1';
                 ev.preventDefault();
 
             });
@@ -98,8 +98,8 @@
 
         $(document).ready(function () {
             $('#play-video_4').on('click', function (ev) {
-                $(".fh5co_hide_4").fadeOut();
-                $("#video_4")[0].src += "&autoplay=1";
+                $('.fh5co_hide_4').fadeOut();
+                $('#video_4')[0].src += '&autoplay=1';
                 ev.preventDefault();
 
             });
@@ -191,4 +191,3 @@
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
-//# sourceMappingURL=main.js.map
