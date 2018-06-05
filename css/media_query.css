@@ -127,7 +127,8 @@
     height: 30px;
   }
   .Reserved {
-    text-align: center;
+    margin-top: 10px;
+    text-align: left;
   }
   .btn_mange_pagging {
     background: #f1f1f1;
