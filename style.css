@@ -676,6 +676,11 @@ hr.short {
   color: #222 !important;
   font-weight: 800;
 }
+.fh5co_magna:hover {
+  font-size: 16px;
+  color: #f5bc04 !important;
+  font-weight: 800;
+}
 .fh5co_mini_time {
   font-size: 14px;
   color: #222;
@@ -714,7 +719,7 @@ hr.short {
   text-decoration: none;
 }
 .fh5co_most_trading {
-  height: 60px;
+  /* height: 60px; */
   width: 100%;
 }
 .most_fh5co_treding_font_123 {
