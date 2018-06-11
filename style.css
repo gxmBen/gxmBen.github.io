@@ -130,6 +130,10 @@ a:hover {
   color: #f5bc04;
   text-decoration: none;
 }
+.fa-hover:hover {
+  color: #f5bc04;
+  text-decoration: none;
+}
 .fh5co_header_bg {
   background: #222;
   color: #fff;
