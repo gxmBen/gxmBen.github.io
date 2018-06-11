@@ -2,10 +2,27 @@
 body {
   background-color: #eee;
 }
+
+@media screen and (max-width: 500px) {
+  .right-rail {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clan-mobile {
+    float: left;
+  }
+}
+
 /* CALENDAR */
 
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
 
 .month {
   padding: 20px 25px;
@@ -61,30 +78,40 @@ ul {list-style-type: none;}
   width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size:12px;
+  font-size: 12px;
   color: #777;
   line-height: 50px;
-
 }
 
 .days li .active {
   padding: 15px;
   background: #f5bc04;
-  color: white !important
+  color: white !important;
 }
 
 /* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
+@media screen and (max-width: 720px) {
+  .weekdays li,
+  .days li {
+    width: 13.1%;
+  }
 }
 
 @media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
+  .weekdays li,
+  .days li {
+    width: 12.5%;
+  }
+  .days li .active {
+    padding: 2px;
+  }
 }
 
 @media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
+  .weekdays li,
+  .days li {
+    width: 12.2%;
+  }
 }
 
 /* CALENDAR */
@@ -856,6 +883,10 @@ hr.short {
   color: #fff !important;
   padding: 0 10px;
 }
+.footer_last_part_menu:hover {
+  color: #f5bc04 !important;
+  padding: 0 10px;
+}
 .spdp_right {
   text-align: right;
 }
@@ -938,7 +969,7 @@ hr.short {
 .fh5co_heading:hover,
 .fh5co_heading:focus {
   font-size: 24px;
-  color: #333; 
+  color: #333;
 }
 .fh5co_contact_us_no_icon_div {
   height: 50px;
