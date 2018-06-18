@@ -1,0 +1,83 @@
+
+.col-md-12 {
+	width: 100%;
+}
+.col-md-11 {
+	width: 91.66666666666666%;
+}
+.col-md-10 {
+	width: 83.33333333333334%;
+}
+.col-md-9 {
+	width: 75%;
+}
+.col-md-8 {
+	width: 66.66666666666666%;
+}
+.col-md-7 {
+	width: 58.333333333333336%;
+}
+.col-md-6 {
+	width: 50%;
+}
+.col-md-5 {
+	width: 41.66666666666667%;
+}
+.col-md-4 {
+	width: 33.33333333333333%;
+}
+.col-md-3 {
+	width: 25%;
+}
+.col-md-2 {
+	width: 16.666666666666664%;
+}
+.col-md-1 {
+	width: 8.333333333333332%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+	float: left;
+}
+
+.gxm-cr-header-bottom,
+.gxm-cr-article-list-4-widget ul li .entry-item .entry-content .entry-content-inner .entry-title,
+#main-menu > li ul,
+.entry-box > .entry-thumb .entry-thumb-inner .entry-caption .entry-caption-inner,
+.gxm-cr-carousel-list-12-widget .gxm-cr-carousel-12 .item .entry-item .entry-content .entry-content-inner,
+.gxm-cr-carousel-list-12-widget .gxm-cr-carousel-12 .item .entry-item .entry-content .entry-content-inner .entry-icon,
+.gxm-cr-carousel-list-10-widget .gxm-cr-carousel-10 .item .entry-item .entry-content header span,
+.gxm-cr-carousel-list-10-widget .older-post li .entry-item .entry-content .entry-content-inner,
+.gxm-cr-service-widget ul li .service-item,
+.gxm-cr-home-slider-4-widget .gxm-cr-home-slider-4 .item .entry-item .entry-content .entry-content-inner,
+.gxm-cr-carousel-list-6-widget .gxm-cr-carousel-6 .item .entry-item .entry-content .entry-content-inner,
+.gxm-cr-carousel-list-6-widget .gxm-cr-carousel-6 .item .entry-item .entry-content .entry-content-inner .entry-icon,
+.gxm-cr-tab-2-widget .tab-content .tab-pane ul li .entry-item .entry-content .entry-content-inner,
+.gxm-cr-tab-2-widget .tab-content .tab-pane ul li .entry-item .entry-content .entry-content-inner .entry-icon,
+.gxm-cr-video-list-2-widget .last-item .entry-content .entry-content-inner,
+.gxm-cr-video-list-2-widget .older-post li .entry-item .entry-thumb .mask,
+.gxm-cr-carousel-list-8-widget .gxm-cr-carousel-8 .item .entry-item .entry-content .entry-content-inner,
+.gxm-cr-carousel-list-8-widget .gxm-cr-carousel-8 .item .entry-item .entry-content .entry-content-inner .entry-icon,
+.gxm-cr-article-list-9-widget ul li .entry-item .entry-content .entry-content-inner,
+.gxm-cr-article-list-9-widget ul li .entry-item .entry-content .entry-content-inner .entry-icon,
+.gxm-cr-carousel-list-3-widget .last-item .gxm-cr-carousel-3 .item .entry-item .entry-content .entry-content-inner,
+.gxm-cr-flex-1-widget .gxm-cr-flex-carousel-1 .slides > li .mask,
+.gxm-cr-flex-1-widget .gxm-cr-flexslider-1 .slides li .entry-item .entry-content .entry-content-inner {
+	background: url(../images/background/opacity-bg-1.png) repeat 0 0;
+}
+.gxm-cr-single-audio .entry-box > .entry-thumb .entry-thumb-inner .entry-caption .entry-caption-inner,
+.gxm-cr-single-video .entry-box > .entry-thumb .entry-thumb-inner .entry-caption .entry-caption-inner {
+	background: none;
+}
+.owl-theme .owl-controls .owl-buttons div,
+.nav-tabs.gxm-cr-tabs-1 > li {
+	background: url(../images/background/opacity-bg-2.png) repeat 0 0;
+}
+.gxm-cr-video-widget ul li .entry-item .entry-thumb .play-icon,
+.gxm-cr-tab-product-widget .tab-content .tab-pane ul li .entry-item .entry-content .entry-content-inner,
+.gxm-cr-carousel-product-widget .gxm-cr-carousel-product .item .entry-item .entry-content .entry-content-inner {
+	background: url(../images/background/opacity-bg-3.png) repeat 0 0;
+}
+.gxm-cr-newsletter-2-widget .newsletter-form p input.name[type="text"], 
+.gxm-cr-newsletter-2-widget .newsletter-form p input.email[type="text"] {
+	width: 294px;
+}
