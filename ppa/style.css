@@ -2,7 +2,6 @@
 html {
   height: 100%;
 }
-
 body {
   background-color: #eee;
   padding-top: 70px;
@@ -10,19 +9,16 @@ body {
   flex-direction: column;
   height: 100vh;
 }
-
 @media screen and (max-width: 500px) {
   .right-rail {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 768px) {
   .clan-mobile {
     float: left;
   }
 }
-
 .form-control {
   display: block;
   width: 100%;
@@ -45,7 +41,6 @@ body {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
 }
-
 .btn {
   display: inline-block;
   font-weight: 100;
@@ -65,12 +60,111 @@ body {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .btn-primary {
   color: #fff;
   background-color: #b3b3b3;
   /* border-color: #9d9d9d; */
 }
+.custom-select {
+  z-index: 9999;
+  position: relative;
+  font-family: inherit;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: #004ba8;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 16px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 10px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* The following bootstrap element has been overwritten in bootstrap.css
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+
+/* .custom-select {
+  display: inline-block;
+  max-width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  line-height: 1.25;
+  color: #464a4c;
+  vertical-align: middle;
+  background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+  -webkit-background-size: 8px 10px;
+          background-size: 8px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.custom-select:focus {
+  border-color: #5cb3fd;
+  outline: none;
+}
+
+.custom-select:focus::-ms-value {
+  color: #464a4c;
+  background-color: #fff;
+}
+
+.custom-select:disabled {
+  color: #636c72;
+  cursor: not-allowed;
+  background-color: #eceeef;
+}
+
+.custom-select::-ms-expand {
+  opacity: 0;
+}
+
+.custom-select-sm {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  font-size: 75%;
+} */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The above bootstrap element has been overwritten in bootstrap.css */
 
 /* CALENDAR */
 
@@ -80,55 +174,46 @@ body {
 ul {
   list-style-type: none;
 }
-
 .month {
   padding: 20px 25px;
   width: 100%;
   background: #afafaf;
   text-align: center;
 }
-
 .month ul {
   margin: 0;
   padding: 0;
 }
-
 .month ul li {
   color: white;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
 .month .prev {
   float: left;
   padding-top: 10px;
 }
-
 .month .next {
   float: right;
   padding-top: 10px;
 }
-
 .weekdays {
   margin: 0;
   padding: 10px 0;
   background-color: #ddd;
 }
-
 .weekdays li {
   display: inline-block;
   width: 13.6%;
   color: #666;
   text-align: center;
 }
-
 .days {
   padding: 10px 0;
   background: #eee;
   margin: 0;
 }
-
 .days li {
   list-style-type: none;
   display: inline-block;
@@ -139,13 +224,11 @@ ul {
   color: #777;
   line-height: 50px;
 }
-
 .days li .active {
   padding: 15px;
   background: #568ed2;
   color: white !important;
 }
-
 /* Add media queries for smaller screens */
 @media screen and (max-width: 720px) {
   .weekdays li,
@@ -153,7 +236,6 @@ ul {
     width: 13.1%;
   }
 }
-
 @media screen and (max-width: 420px) {
   .weekdays li,
   .days li {
@@ -163,7 +245,6 @@ ul {
     padding: 2px;
   }
 }
-
 @media screen and (max-width: 290px) {
   .weekdays li,
   .days li {
@@ -336,7 +417,7 @@ hr.short {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #fff !important;
+  color: #464a4c !important;
   padding-top: 14px !important;
   padding-bottom: 15px !important;
   padding-left: 20px !important;
@@ -347,7 +428,7 @@ hr.short {
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background: #779cc2!important;
+  /* background: #779cc2!important; */
   /* -webkit-clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
   -moz-clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
   -ms-clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
@@ -373,8 +454,9 @@ hr.short {
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  background: #779cc2!important;
-  color: #fff !important;
+  background: transparent !important;
+  font-size: 125%;
+  color: #464a4c !important;
   padding-top: 14px !important;
   padding-bottom: 15px !important;
   padding-left: 20px !important;
