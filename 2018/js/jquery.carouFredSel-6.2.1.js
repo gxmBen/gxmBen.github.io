@@ -4238,4 +4238,3 @@
 
 
 })(jQuery);
-//# sourceMappingURL=jquery.carouFredSel-6.2.1.js.map

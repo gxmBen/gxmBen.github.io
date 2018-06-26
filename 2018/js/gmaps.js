@@ -2055,5 +2055,3 @@ if (!Array.prototype.indexOf) {
   
 return GMaps;
 }));
-
-//# sourceMappingURL=gmaps.js.map

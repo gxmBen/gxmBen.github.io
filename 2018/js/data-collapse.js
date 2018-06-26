@@ -6,4 +6,3 @@ $(document).ready(function() {
         responsive: true
     } );
 } );
-//# sourceMappingURL=data-collapse.js.map
