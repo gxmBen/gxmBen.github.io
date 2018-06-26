@@ -1149,3 +1149,5 @@
     }
   };
 })(jQuery);
+
+//# sourceMappingURL=jquery.flexslider.js.map

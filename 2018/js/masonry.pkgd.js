@@ -2819,3 +2819,5 @@ if ( typeof define === 'function' && define.amd ) {
 }
 
 })( window );
+
+//# sourceMappingURL=masonry.pkgd.js.map

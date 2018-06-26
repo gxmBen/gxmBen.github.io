@@ -1278,3 +1278,5 @@ VectorCanvas.prototype.setSize = function (width, height) {
   this.width = width;
   this.height = height;
 };
+
+//# sourceMappingURL=jquery.vmap.js.map

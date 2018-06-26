@@ -31,3 +31,4 @@ window.onload = function () {
     $('#sticky-ad').hide();
     $('.gxm-cr-sharebtns').hide();
 };
+//# sourceMappingURL=crtv-sticky-ad.js.map

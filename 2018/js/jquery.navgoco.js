@@ -292,3 +292,4 @@
 		onToggleAfter: $.noop
 	};
 })(jQuery);
+//# sourceMappingURL=jquery.navgoco.js.map

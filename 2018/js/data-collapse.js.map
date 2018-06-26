@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["data-collapse.js"],"sourcesContent":["$(document).ready(function() {\n    var table = $('#example').DataTable( {\n        rowReorder: {\n            selector: 'td:nth-child(2)'\n        },\n        responsive: true\n    } );\n} );"],"file":"data-collapse.js"}
